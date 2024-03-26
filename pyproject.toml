@@ -6,9 +6,8 @@ authors = [
     { name = "lyyyuna", email = "lyyyuna@outlook.com" }
 ]
 dependencies = [
-    "manimgl>=1.6.1",
+    "manim>=0.18.0",
     "setuptools>=69.2.0",
-    "numpy==1.24",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
