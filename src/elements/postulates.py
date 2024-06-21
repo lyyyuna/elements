@@ -1,11 +1,9 @@
 from manim import *
+from util import CustomScene
 
-class Solution(Scene):
+class Solution(CustomScene):
     def construct(self):
-        title = Text("公设 1", color='#FFFFFF')
-        self.play(Write(title))
-        self.wait(1)
-        self.play(FadeOut(title))
+        self.custom_title("公设 1")
 
         postlutate1 = Text("从任一点到任一点可作一条直线", color='#FFFFFF')
         self.play(Write(postlutate1))
